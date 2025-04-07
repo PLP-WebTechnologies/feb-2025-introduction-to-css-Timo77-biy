@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Styled Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="main-title">Welcome to My Styled Website</h1>
+        <p class="tagline">A simple demonstration of CSS.</p>
+    </header>
+
+    <div class="container">
+        <img src="placeholder.jpg" alt="Placeholder Image" class="responsive-image">
+        <section id="content">
+            <h2>About This Page</h2>
+            <p class="paragraph-text">This page showcases basic CSS styling. We are using external stylesheets to separate our presentation from the HTML structure. This makes our code more organized and easier to maintain.</p>
+            <p class="paragraph-text">We will explore different selectors, typography, colors, and spacing techniques to improve the visual appeal and readability of this content.</p>
+        </section>
+
+        <div class="call-to-action">
+            <button class="primary-button">Learn More</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 My Styled Website</p>
+    </footer>
+</body>
+</html>
+
+/* Element Selector */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* ID Selector */
+#title {
+  color: #0066cc;
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+/* Class Selector */
+.main-header {
+  background-color: #e0f0ff;
+  padding: 20px;
+  border: 2px solid #007acc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Style for image */
+.styled-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 3px solid #ccc;
+  padding: 5px;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+/* Paragraph style */
+.intro-text {
+  font-size: 1.1em;
+  line-height: 1.6;
+  padding: 10px;
+  margin: 0 auto;
+  width: 80%;
+  background-color: #fff;
+  border-left: 4px solid #00bfff;
+}
